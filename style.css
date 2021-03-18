@@ -1,0 +1,349 @@
+@font-face {
+  font-family: 'Josefin';
+  src: url('fonts/JosefinSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Josefin-SemiBold';
+  src: url('fonts/JosefinSans-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Josefin-Bold';
+  src: url('fonts/JosefinSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Josefin-Italic';
+  src: url('fonts/JosefinSans-Italic.ttf');
+}
+
+.logo {
+  font-family: 'Josefin-SemiBold';
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin-Italic";
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Josefin-Bold";
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Josefin-Bold";
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Josefin";
+  color: black;
+}
+
+p {
+  font-family: "Josefin";
+  font-size: 16px;
+  line-height: 30px;
+}
+
+span {
+  font-family: "Josefin-Bold";
+}
+
+/******************** MENU ********************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.15);
+  padding: 10px 50px 10px 150px;
+}
+
+header .logo {
+  width: 120px;
+}
+
+.all-link {
+  display: flex;
+  align-items: center;
+}
+
+.all-link .link-menu {
+  display: flex;
+}
+
+.link-menu img {
+  margin-right: 10px;
+}
+
+.link-menu p {
+  margin-right: 40px;
+}
+
+.all-link a:last-of-type {
+  color: #4C6EF6;
+}
+
+.all-link a:nth-of-type(4) {
+  color: white;
+  background-color: #4C6EF6;
+  padding: 15px 30px;
+  margin-right: 40px;
+}
+
+/******************** HERO ********************/
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.hero img {
+  width: 55%;
+}
+
+.cuisinons-ensemble {
+  width: 33%;
+  margin: 60px 0 0 150px;
+  position: relative;
+}
+
+.cuisinons-ensemble img {
+  position: absolute;
+  width: 70px;
+  top: 65px;
+}
+
+.cuisinons-ensemble p {
+  font-size: 18px;
+  font-family: "Josefin";
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+
+.cuisinons-ensemble .call-to-action a:first-of-type {
+  color: white;
+  background-color: #4C6EF6;
+  padding: 15px 50px;
+  margin-right: 40px;
+}
+
+.cuisinons-ensemble .call-to-action a:last-of-type {
+  color: #4C6EF6;
+}
+
+/******************** PRO ********************/
+.professionnel {
+  display: flex;
+  margin-top: -50px;
+}
+
+.professionnel img {
+  width: 48%;
+  margin-left: 50px;
+}
+
+.content-professionnel {
+  width: 40%;
+  margin: 200px 0 0 50px;
+}
+
+.content-professionnel .call-to-action {
+    margin-top: 30px;
+}
+
+.content-professionnel .call-to-action a:first-of-type {
+  background-color: #4C6EF6;
+  color: white;
+  padding: 15px 40px;
+  margin-right: 20px;
+}
+
+.content-professionnel .call-to-action a:last-of-type {
+  background-color: #FCC124;
+  color: white;
+  padding: 15px 40px;
+}
+
+/******************** PARTICULIER ********************/
+.particulier {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.particulier img {
+  width: 40%;
+}
+
+.content-particulier {
+  width: 40%;
+}
+
+.content-particulier a {
+  background-color: #FA5353;
+  color: white;
+  padding: 15px 40px;
+}
+
+.content-particulier p {
+  margin-bottom: 30px;
+}
+
+/******************** DECOUVERTE ********************/
+.decouverte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.all-decouverte {
+  display: flex;
+}
+
+.categorie {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.categorie img {
+  width: 70%;
+}
+
+.categorie a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  left: 100px;
+  top: 120px;
+  color: white;
+  backdrop-filter: blur(2px);
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.categorie a > img {
+  width: 10px;
+  margin-left: 20px;
+}
+
+.categorie a > p {
+  font-family: "Josefin-Bold";
+  font-size: 22px;
+  margin: 0;
+}
+
+/******************** CONFIANCE ********************/
+.confiance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.all-confiance {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.personne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 35%;
+  margin: 0 5px;
+}
+
+.personne img {
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.bleu img {
+  width: 80%;
+}
+
+.personne p {
+  width: 90%;
+}
+
+.personne a {
+  position: relative;
+  font-family: "Josefin-Bold";
+  color: white;
+  font-size: 18px;
+}
+
+.bleu a > img{
+  width: 100%;
+}
+
+.jaune a::before {
+  content: "Je cherche une cuisine";
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+
+.rouge a::before {
+  content: "Je participe à un atelier";
+  position: absolute;
+  top: 60px;
+  left: 90px;
+}
+
+.bleu a::before {
+  content: "Je propose ma cuisine";
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+
+/******************** FOOTER ********************/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .bar {
+  width: 80%;
+  background-color: black;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+footer .content {
+  display: flex;
+  width: 80%;
+}
+
+footer .suivez-nous {
+  width: 60%;
+}
+
+.suivez-vous .RS {
+  display: flex;
+}
+
+.RS img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+footer .link-menu {
+  display: flex;
+}
